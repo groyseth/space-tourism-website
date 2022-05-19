@@ -1,0 +1,8 @@
+.destBackGround{
+    background-image: url(../assets/destination/background-destination-desktop.jpg);
+    background-size: cover;
+    /* width: 100vw; */
+    height: 107vh;
+    margin-top: -24px;
+    background-repeat: no-repeat;
+}
