@@ -1,8 +1,9 @@
 .backGround{
     background-image: url(../assets/home/background-home-desktop.jpg);
     background-size: cover;
-    width: 100vw;
-    height: 100vh;
+    /* width: 100vw; */
+    height: 111vh;
+    margin-top: -24px;
     background-repeat: no-repeat;
 }
 .mainText{
@@ -10,7 +11,7 @@
     width: 450px;
 height: 382px;
 left: 165px;
-top: 387px;
+top: 325px;
 position: relative;
 }
 .mainText p{
@@ -54,20 +55,42 @@ text-align: initial;
     line-height: 34px;
     letter-spacing: 4.725px;
     color: #D0D6F9;
+    width: 102%;
 }
 .navHome{
     color: white;
     list-style: none;
     position: relative;
-    top: 76px;
+    top: 24px;
+    grid-template-columns: 91px 123px 86px 99px;
+    float: right;
+    display: grid;
+    font-family: Barlow Condensed;
+    font-size: 16px;
+    right: 13%;
 }
 .navMain{
     background-image: url(../assets/home/Group\ 3.png);
     background-repeat: no-repeat;
     position: absolute;
-width: 100vw;
+width: 95vw;
 height: 96px;
 left: 55px;
-top: 40px;
+top: 30px;
 background-size: cover;
+}
+.circleImg{
+    position: absolute;
+width: 274px;
+height: 274px;
+left: 1001px;
+top: 397px;
+}
+.explore{
+    position: relative;
+    width: 9px;
+    height: 12px;
+    left: 1082px;
+    top: 100px;
+    text-align: -webkit-center;
 }
