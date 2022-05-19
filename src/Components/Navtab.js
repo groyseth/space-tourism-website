@@ -1,6 +1,6 @@
 import React from 'react';
 import "../css/home.css"
-import { Nav, Navbar, NavDropdown, Container } from 'react-bootstrap';
+import { Nav, Navbar, Container } from 'react-bootstrap';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (

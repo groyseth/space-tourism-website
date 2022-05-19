@@ -6,3 +6,11 @@
     margin-top: -24px;
     background-repeat: no-repeat;
 }
+.test{
+    color: white;
+    position: relative;
+    float: right;
+    top: 40vh;
+    border: 4px white solid;
+    margin: auto;
+}
