@@ -82,7 +82,7 @@ background-size: cover;
 
 
 .active{
-     border-bottom: 2px rgb(255, 255, 255) solid; 
+     border-bottom: 3px rgb(255, 255, 255) solid; 
 }
 .nav a {
     padding: .5em .8em;
@@ -90,7 +90,7 @@ background-size: cover;
     position: relative;
     text-decoration: none;
     text-align: right;
-    padding-bottom: 39px;
+    padding-bottom: 35px;
     font-size: 14px;
     font-family: Barlow Condensed;
   }

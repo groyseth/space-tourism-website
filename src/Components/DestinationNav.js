@@ -14,7 +14,37 @@ export default function DestinationNav({ currentPage, handlePageChange }) {
 
             className={currentPage === 'Moon' ? 'nav-link active' : 'nav-link'}
           >
-           <h1>MOON</h1>
+           MOON
+          </Nav.Link>
+        </div>
+        <div className=''>
+          <Nav.Link
+            href="#Mars"
+            onClick={() => handlePageChange('Mars')}
+
+            className={currentPage === 'Mars' ? 'nav-link active' : 'nav-link'}
+          >
+           MARS
+          </Nav.Link>
+        </div>
+        <div className=''>
+          <Nav.Link
+            href="#Europa"
+            onClick={() => handlePageChange('Europa')}
+
+            className={currentPage === 'Europa' ? 'nav-link active' : 'nav-link'}
+          >
+           EUROPA
+          </Nav.Link>
+        </div>
+        <div className=''>
+          <Nav.Link
+            href="#Titan"
+            onClick={() => handlePageChange('Titan')}
+
+            className={currentPage === 'Titan' ? 'nav-link active' : 'nav-link'}
+          >
+           TITAN
           </Nav.Link>
         </div>
 

@@ -2,7 +2,9 @@ import React, {useState} from 'react'
 import DestinationNav from '../Components/DestinationNav';
 import '../css/dest.css'
 import Moon from './DestonationPages/Moon';
-
+import Mars from './DestonationPages/Mars';
+import Europa from './DestonationPages/Europa';
+import Titan from './DestonationPages/Titan';
 
 export default function Destonation() {
   const [currentPage, setCurrentPage] = useState('Moon');
@@ -10,6 +12,15 @@ export default function Destonation() {
   const renderPage = () => {
     if (currentPage === 'Moon') {
       return <Moon />;
+    }
+    if (currentPage === 'Mars') {
+      return <Mars />;
+    }
+    if (currentPage === 'Europa') {
+      return <Europa />;
+    }
+    if (currentPage === 'Titan') {
+      return <Titan />;
     }
     
   };

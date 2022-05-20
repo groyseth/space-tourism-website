@@ -7,7 +7,6 @@
     background-repeat: no-repeat;
 }
 .name{
-    
     position: relative;
     float: right;
     top: 40vh;
@@ -19,6 +18,20 @@ font-weight: 400;
 font-size: 100px;
 line-height: 115px;
 color: #FFFFFF;
+}
+.nameEuropa{
+    position: relative;
+    float: right;
+    top: 40vh;
+    right: -100px;
+    /* border: 4px white solid; */
+    margin: auto;
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 115px;
+    color: #FFFFFF;
 }
 .planet{
     position: absolute;
@@ -65,4 +78,43 @@ color: #FFFFFF;
     line-height: 32px;
     width: 444px;
     color: #D0D6F9;
+}
+.stats{
+ padding-top: 27px;
+}
+
+.statPos{
+    border-top: 2px #383B4B solid;
+    position: absolute;
+    width: 444px;
+    right: 10.5%;
+    top: 76vh;
+    grid-gap: 64px;
+    display: grid;
+    grid-template-columns: 203px 206px;
+}
+.distance{
+    font-family: 'Bellefair';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 32px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.distanceNum{
+    font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+letter-spacing: 2.3625px;
+text-transform: uppercase;
+
+color: #D0D6F9;
 }
