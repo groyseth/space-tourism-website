@@ -6,7 +6,7 @@ export default function DestinationNav({ currentPage, handlePageChange }) {
     <Navbar className='' >
     <Container>
 
-      <Nav className="placeMent">
+      <Nav className="destNav">
         <div className=''>
           <Nav.Link
             href="#Moon"
@@ -14,7 +14,7 @@ export default function DestinationNav({ currentPage, handlePageChange }) {
 
             className={currentPage === 'Moon' ? 'nav-link active' : 'nav-link'}
           >
-            MOON
+           <h1>MOON</h1>
           </Nav.Link>
         </div>
 
