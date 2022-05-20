@@ -2,6 +2,8 @@ import React from 'react'
 import "../css/home.css"
 import image from "../assets/home/Group.png"
 import NavTabs from '../Components/Navtab'
+import Destonation from './Destonation'
+import { Link } from 'react-router-dom';
 export default function Home() {
   return (
     <div className='backGround' id='home'>
@@ -18,7 +20,9 @@ export default function Home() {
       </section>
       <div>
         <img src={image} alt='cirlce' className='circleImg'></img>
-        <h1 className='explore'>EXPLORE</h1>
+        
+        <h1 className='explore' onClick={() => window.location.replace("Destination")} >EXPLORE</h1>
+        
       </div>
     </div>
   )

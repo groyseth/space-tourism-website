@@ -54,18 +54,15 @@ color: #FFFFFF;
 }
 .discript{
     position: absolute;
-height: 128px;
-left: 0%;
-right: 0.22%;
-top: calc(50% - 128px/2 + 28px);
-
-font-family: 'Barlow';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 32px;
-/* or 178% */
-
-
-color: #D0D6F9;
+    height: 128px;
+    /* left: 0%; */
+    right: 10.22%;
+    top: calc(50% - 54px/2 + 28px);
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    width: 444px;
+    color: #D0D6F9;
 }
