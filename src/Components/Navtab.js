@@ -29,6 +29,17 @@ function NavTabs({ currentPage, handlePageChange }) {
             </Nav.Link>
 
           </div>
+          <div className='nav'>
+            <Nav.Link
+              href="#Crew"
+
+              onClick={() => handlePageChange('Crew')}
+              className={currentPage === 'Crew' ? 'nav-link active' : 'nav-link'}
+            >
+              CREW
+            </Nav.Link>
+
+          </div>
 
 
 
