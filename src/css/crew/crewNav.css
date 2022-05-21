@@ -3,7 +3,7 @@
     top: 700px;
     right: -6%;
     display: grid;
-    grid-template-columns: 25px 25px 25px 25px;
+    grid-template-columns: 30px 30px 30px 30px;
 }
 .circleNav{
     width: 15px;
