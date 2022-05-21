@@ -1,4 +1,4 @@
 # space-tourism-website
 
 # Progress
-I have a landing page so far. Check it out [Link](https://space-tourism-website-112.herokuapp.com/)
+I completed landing, destinations almost done with crew! Check it out [Link](https://space-tourism-website-112.herokuapp.com/)
