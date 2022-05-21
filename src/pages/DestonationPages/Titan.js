@@ -5,7 +5,7 @@ import pic from "../../assets/destination/image-titan.png"
 
 export default function Titan() {
   return (
-    <div className='navPlanets' id='Mars'>
+    <section className='navPlanets' id='Mars'>
       <h1 className='name'>TITAN</h1>
       <p className='discript'>{destinations[3].description}</p>
       <img src={pic} alt="" className="planet" />
@@ -21,6 +21,6 @@ export default function Titan() {
           <p className='distanceNum'>Est. travel time</p><h1 className='distance'>{destinations[3].travel}</h1>
         </div>
       </div>
-    </div>
+    </section>
   )
 }

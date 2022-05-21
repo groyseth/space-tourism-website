@@ -5,7 +5,7 @@ import pic from "../../assets/destination/image-moon.png"
 export default function Moon() {
   console.log(destinations[0].images);
   return (
-    <div className='navPlanets'>
+    <section className='navPlanets'>
       <h1 className='name'>MOON</h1>
       <p className='discript'>{destinations[0].description}</p>
       <img src={pic} alt="" className="planet" />
@@ -21,6 +21,6 @@ export default function Moon() {
           <p className='distanceNum'>Est. travel time</p><h1 className='distance'>{destinations[0].travel}</h1>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
