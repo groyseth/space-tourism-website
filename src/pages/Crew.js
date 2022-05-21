@@ -1,8 +1,10 @@
 import React, {useState} from 'react'
 import CrewNav from "../Components/CrewNav"
-import '../css/crew.css'
+import '../css/crew/crew.css'
 import Douglas from './CrewPages/Douglas';
-
+import Mark from './CrewPages/Mark';
+import Victor from './CrewPages/Victor';
+import Anousheh from "./CrewPages/Anousheh"
 export default function Crew() {
   const [currentPage, setCurrentPage] = useState('Douglas');
 
@@ -10,15 +12,15 @@ export default function Crew() {
     if (currentPage === 'Douglas') {
       return <Douglas />;
     }
-//     if (currentPage === '') {
-//       return < />;
-//     }
-//     if (currentPage === '') {
-//       return < />;
-//     }
-//     if (currentPage === '') {
-//       return < />;
-//     }
+    if (currentPage === 'Mark') {
+      return <Mark />;
+    }
+    if (currentPage === 'Victor') {
+      return <Victor />;
+    }
+    if (currentPage === 'Anousheh') {
+      return <Anousheh />;
+    }
     
   };
 

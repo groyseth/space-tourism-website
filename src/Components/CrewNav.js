@@ -1,6 +1,6 @@
 import React from 'react'
 import { Nav, Navbar, Container } from 'react-bootstrap';
-import "../css/crew.css"
+import "../css/crew/crewNav.css"
 export default function DestinationNav({ currentPage, handlePageChange }) {
   return (
     <Navbar className='' >
@@ -12,41 +12,46 @@ export default function DestinationNav({ currentPage, handlePageChange }) {
             href="#"
             onClick={() => handlePageChange('Douglas')}
 
-            className={currentPage === 'Douglas' ? 'nav-link active' : 'nav-link'}
+            className={currentPage === 'Douglas' ? 'nav-link cirlceActive' : 'nav-link'}
           >
-           Douglas
+          <div className='circleNav'></div>
           </Nav.Link>
         </div>
-        {/* <div className=''>
-          <Nav.Link
-            href="#"
-            onClick={() => handlePageChange('')}
 
-            className={currentPage === '' ? 'nav-link active' : 'nav-link'}
-          >
-           
-          </Nav.Link>
-        </div>
         <div className=''>
           <Nav.Link
             href="#"
-            onClick={() => handlePageChange('')}
+            onClick={() => handlePageChange('Mark')}
 
-            className={currentPage === '' ? 'nav-link active' : 'nav-link'}
+            className={currentPage === 'Mark' ? 'nav-link cirlceActive' : 'nav-link'}
           >
-           
+          <div className='circleNav'></div>
           </Nav.Link>
         </div>
+
         <div className=''>
           <Nav.Link
             href="#"
-            onClick={() => handlePageChange('')}
+            onClick={() => handlePageChange('Victor')}
 
-            className={currentPage === '' ? 'nav-link active' : 'nav-link'}
+            className={currentPage === 'Victor' ? 'nav-link cirlceActive' : 'nav-link'}
           >
-           
+          <div className='circleNav'></div>
           </Nav.Link>
-        </div> */}
+        </div>
+
+        <div className=''>
+          <Nav.Link
+            href="#"
+            onClick={() => handlePageChange('Anousheh')}
+
+            className={currentPage === 'Anousheh' ? 'nav-link cirlceActive' : 'nav-link'}
+          >
+          <div className='circleNav'></div>
+          </Nav.Link>
+        </div>
+        
+       
 
 
 

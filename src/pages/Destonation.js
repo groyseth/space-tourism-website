@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import DestinationNav from '../Components/DestinationNav';
-import '../css/dest.css'
+import '../css/destinations/dest.css'
 import Moon from './DestonationPages/Moon';
 import Mars from './DestonationPages/Mars';
 import Europa from './DestonationPages/Europa';

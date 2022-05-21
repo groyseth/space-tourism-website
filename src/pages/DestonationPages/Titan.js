@@ -1,5 +1,5 @@
 import React from 'react'
-import "../../css/dest.css"
+import "../../css/destinations/dest.css"
 import { destinations } from "../../data"
 import pic from "../../assets/destination/image-titan.png"
 

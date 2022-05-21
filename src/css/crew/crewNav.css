@@ -1,0 +1,19 @@
+.crewNav{
+    position: relative;
+    top: 700px;
+    right: -6%;
+    display: grid;
+    grid-template-columns: 25px 25px 25px 25px;
+}
+.circleNav{
+    width: 15px;
+    height: 15px;
+    background: #ffffff;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+.cirlceActive{
+    background: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.17;
+}
