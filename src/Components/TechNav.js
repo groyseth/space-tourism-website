@@ -10,11 +10,11 @@ export default function DestinationNav({ currentPage, handlePageChange }) {
         <div className=''>
           <Nav.Link
             href="#"
-            onClick={() => handlePageChange('Douglas')}
+            onClick={() => handlePageChange('Vehical')}
 
-            className={currentPage === 'Douglas' ? 'nav-link techActive' : 'nav-link'}
+            className={currentPage === 'Vehical' ? 'nav-link techActive' : 'nav-link'}
           >
-          <div className='techCircle'><h1>1</h1></div>
+          <div className='techCircle '><h1>1</h1></div>
           </Nav.Link>
         </div>
 

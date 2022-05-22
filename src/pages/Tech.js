@@ -4,10 +4,10 @@ import '../css/tech/tech.css'
 import Vehical from "./TechPages/Vehical"
 
 export default function Crew() {
-  const [currentPage, setCurrentPage] = useState('');
+  const [currentPage, setCurrentPage] = useState('Vehical');
 
   const renderPage = () => {
-    if (currentPage === '') {
+    if (currentPage === 'Vehical') {
       return <Vehical />;
     }
     // if (currentPage === 'Mark') {
