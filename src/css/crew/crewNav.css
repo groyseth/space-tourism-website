@@ -4,6 +4,7 @@
     right: -6%;
     display: grid;
     grid-template-columns: 30px 30px 30px 30px;
+    width: 10%;
 }
 .circleNav{
     width: 15px;
