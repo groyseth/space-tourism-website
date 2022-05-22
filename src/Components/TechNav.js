@@ -6,15 +6,15 @@ export default function DestinationNav({ currentPage, handlePageChange }) {
     <Navbar className='' >
     <Container>
 
-      <Nav className="crewNav">
+      <Nav className="techNav">
         <div className=''>
           <Nav.Link
             href="#"
             onClick={() => handlePageChange('Douglas')}
 
-            className={currentPage === 'Douglas' ? 'nav-link cirlceActive' : 'nav-link'}
+            className={currentPage === 'Douglas' ? 'nav-link techActive' : 'nav-link'}
           >
-          <div className='circleNav'></div>
+          <div className='techCircle'><h1>1</h1></div>
           </Nav.Link>
         </div>
 
