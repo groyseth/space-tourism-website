@@ -41,6 +41,18 @@ function NavTabs({ currentPage, handlePageChange }) {
 
           </div>
 
+          <div className='nav'>
+            <Nav.Link
+              href="#Tech"
+
+              onClick={() => handlePageChange('Tech')}
+              className={currentPage === 'Tech' ? 'nav-link active' : 'nav-link'}
+            >
+              TECHNOLOGY
+            </Nav.Link>
+
+          </div>
+
 
 
         </Nav>

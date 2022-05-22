@@ -3,6 +3,7 @@ import Home from '../pages/Home';
 import Destonation from '../pages/Destonation';
 import NavTabs from './Navtab';
 import Crew from '../pages/Crew';
+import Tech from "../pages/Tech"
 export default function MainComponent() {
 
     const [currentPage, setCurrentPage] = useState('Home');
@@ -17,6 +18,9 @@ export default function MainComponent() {
     if(currentPage === 'Crew'){
       return <Crew />
       }
+    if(currentPage === "Tech"){
+      return <Tech />
+    }
   };
 
   const handlePageChange = (page) => setCurrentPage(page);

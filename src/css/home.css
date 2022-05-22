@@ -62,7 +62,7 @@ text-align: initial;
 .navHome{
     position: relative;
     top: 37px;
-    grid-template-columns: 91px 123px 86px 99px;
+    grid-template-columns: 69px 123px 66px 121px;
     float: right;
     display: grid;
     /* font-family: Barlow Condensed; */

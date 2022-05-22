@@ -1,0 +1,83 @@
+.techBackGround{
+    background-image: url(../../assets/technology/background-technology-desktop.jpg);
+    background-size: cover;
+    height: 107vh;
+    margin-top: -24px;
+    background-repeat: no-repeat;
+}
+.discript {
+    position: absolute;
+    height: 128px;
+    /* left: 0%; */
+    right: 10.22%;
+    top: calc(50% - 54px/2 + 28px);
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    width: 444px;
+    color: #D0D6F9;
+}
+
+
+.crewDis {
+
+    position: absolute;
+    width: 440px;
+    left: 6%;
+    top: 63vh;
+}
+
+.crewDisText {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+
+
+    color: #D0D6F9;
+}
+
+.crewPic {
+    width: 477.07px;
+    height: 576px;
+    right: 10%;
+    position: absolute;
+    top: 26.5vh;
+}
+
+.crewInfo {
+    position: relative;
+    top: 281px;
+    right: -6%;
+    width: 48%;
+}
+
+.crewName {
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: relative;
+    top: -40px;
+}
+
+.crewRole {
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
