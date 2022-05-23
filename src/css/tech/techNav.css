@@ -8,9 +8,16 @@
 }
 
 .techActive{
-    background: #FFFFFF;
+    /* background: #FFFFFF; */
+    background-color: white;
 mix-blend-mode: normal;
-opacity: 0.17;
+/* opacity: 0.17; */
+}
+
+.techActive div.techCircle{
+opacity: 1.0;
+background-color: white;
+color: black;
 }
 .techCircle{
     width: 80px;
@@ -25,6 +32,6 @@ opacity: 0.17;
     font-weight: 400;
     font-size: 32px;
     line-height: 0px;
-    text-align: center;
+    margin-bottom: 12px;
     color: #FFFFFF;
 }

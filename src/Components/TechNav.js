@@ -18,6 +18,27 @@ export default function DestinationNav({ currentPage, handlePageChange }) {
           </Nav.Link>
         </div>
 
+        <div className=''>
+          <Nav.Link
+            href="#"
+            onClick={() => handlePageChange('SpacePort')}
+
+            className={currentPage === 'SpacePort' ? 'nav-link techActive' : 'nav-link'}
+          >
+          <div className='techCircle '><h1>2</h1></div>
+          </Nav.Link>
+        </div>
+
+        <div className=''>
+          <Nav.Link
+            href="#"
+            onClick={() => handlePageChange('SpaceCap')}
+
+            className={currentPage === 'SpaceCap' ? 'nav-link techActive' : 'nav-link'}
+          >
+          <div className='techCircle '><h1>3</h1></div>
+          </Nav.Link>
+        </div>
         
         
        

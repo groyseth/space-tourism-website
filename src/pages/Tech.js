@@ -2,7 +2,8 @@ import React, {useState} from 'react'
 import TechNav from "../Components/TechNav"
 import '../css/tech/tech.css'
 import Vehical from "./TechPages/Vehical"
-
+import SpacePort from './TechPages/SpacePort'
+import SpaceCap from './TechPages/SpaceCap'
 export default function Crew() {
   const [currentPage, setCurrentPage] = useState('Vehical');
 
@@ -10,12 +11,12 @@ export default function Crew() {
     if (currentPage === 'Vehical') {
       return <Vehical />;
     }
-    // if (currentPage === 'Mark') {
-    //   return <Mark />;
-    // }
-    // if (currentPage === 'Victor') {
-    //   return <Victor />;
-    // }
+    if (currentPage === 'SpacePort') {
+      return <SpacePort />;
+    }
+    if (currentPage === 'SpaceCap') {
+      return <SpaceCap />;
+    }
     // if (currentPage === 'Anousheh') {
     //   return <Anousheh />;
     // }
