@@ -1,11 +1,20 @@
-import React from 'react';
+import React, {useState} from 'react';
 import "../css/home.css"
 import { Nav, Navbar, Container } from 'react-bootstrap';
-
+import hamburger from "../assets/shared/icon-hamburger.svg"
 function NavTabs({ currentPage, handlePageChange }) {
+  const [click, setClick] = useState(false)
+
+  const handleClick = () => setClick(!click)
+  const closeMobileMenu = () => setClick(false);
+
+
   return (
     <Navbar className='navMain' >
       <Container>
+      <div className='menu-icon' onClick={handleClick}>
+            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+        </div>
 
         <Nav className="navHome">
           <div className='nav'>
@@ -18,6 +27,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               HOME
             </Nav.Link>
           </div >
+
           <div className='nav'>
             <Nav.Link
               href="#Destonation"
@@ -27,8 +37,8 @@ function NavTabs({ currentPage, handlePageChange }) {
             >
               DESTONATION
             </Nav.Link>
-
           </div>
+
           <div className='nav'>
             <Nav.Link
               href="#Crew"
@@ -38,7 +48,6 @@ function NavTabs({ currentPage, handlePageChange }) {
             >
               CREW
             </Nav.Link>
-
           </div>
 
           <div className='nav'>
@@ -50,7 +59,6 @@ function NavTabs({ currentPage, handlePageChange }) {
             >
               TECHNOLOGY
             </Nav.Link>
-
           </div>
 
 

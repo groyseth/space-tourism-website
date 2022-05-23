@@ -4,7 +4,7 @@ import { destinations } from "../../data"
 import pic from "../../assets/destination/image-mars.png"
 export default function Mars() {
     return (
-        <section className='navPlanets' id='Mars'>
+        <section className='navPlanets' >
             <h1 className='name'>MARS</h1>
             <p className='discript'>{destinations[1].description}</p>
             <img src={pic} alt="" className="planet" />

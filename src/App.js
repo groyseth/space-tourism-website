@@ -1,20 +1,24 @@
 import './App.css';
 import React from 'react';
+import {
+  BrowserRouter,
+  Routes, 
+  Route,
+} from "react-router-dom";
+
 import Home from './pages/Home';
 import MainComponent from './Components/MainComponent';
-// import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Destonation from './pages/Destonation';
+
+import Explore from './pages/Explore';
 function App() {
   return (
-    <div >
-     
-   
-      <MainComponent />
-   
-      
-      {/* <Route path="/Destination" component={Destonation} /> */}
-      
-    </div>
+  <>
+
+  <Routes>
+            <Route exact path="/" element={<MainComponent />} />
+       
+      </Routes>
+  </>
   );
 }
 

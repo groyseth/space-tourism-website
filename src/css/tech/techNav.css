@@ -7,17 +7,15 @@
     width: 10%;
 }
 
-.techActive{
-    /* background: #FFFFFF; */
-    background-color: white;
-mix-blend-mode: normal;
-/* opacity: 0.17; */
-}
+
 
 .techActive div.techCircle{
 opacity: 1.0;
 background-color: white;
 color: black;
+}
+.techCircle:hover{
+    opacity: 1.0;
 }
 .techCircle{
     width: 80px;

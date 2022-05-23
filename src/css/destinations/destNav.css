@@ -14,10 +14,11 @@
     Width: 285.5px;
     Height: 34px;
 }
-
+.destNav a:hover{
+    border-bottom: 3px rgba(255, 255, 255, 0.229) solid;
+}
 
 .destNav a{
-    /* padding: .5em .8em; */
     color: rgb(255, 255, 255);
     position: relative;
     text-decoration: none;

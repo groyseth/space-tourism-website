@@ -1,4 +1,4 @@
-.backGround{
+.backGround {
     background-image: url(../assets/home/background-home-desktop.jpg);
     background-size: cover;
     /* width: 100vw; */
@@ -6,30 +6,33 @@
     margin-top: -24px;
     background-repeat: no-repeat;
 }
-.mainText{
+
+.mainText {
     color: white;
     width: 450px;
-height: 382px;
-left: 165px;
-top: 325px;
-position: relative;
+    height: 382px;
+    left: 165px;
+    top: 325px;
+    position: relative;
 }
-.mainText p{
+
+.mainText p {
     position: absolute;
-height: 128px;
-left: 0.11%;
-right: 1.22%;
-top: calc(50% - 128px/2 + 87px);
-font-family: 'Barlow';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 32px;
-color: #D0D6F9;
-text-align: initial;
+    height: 128px;
+    left: 0.11%;
+    right: 1.22%;
+    top: calc(50% - 128px/2 + 87px);
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;
+    text-align: initial;
 
 }
-.mainText h1{
+
+.mainText h1 {
     position: absolute;
     height: 172px;
     left: 0%;
@@ -42,7 +45,8 @@ text-align: initial;
     line-height: 0px;
     color: #FFFFFF;
 }
-.mainText h3{
+
+.mainText h3 {
     position: relative;
     height: 34px;
     left: -0.89%;
@@ -57,9 +61,10 @@ text-align: initial;
     color: #D0D6F9;
     width: 102%;
 }
+
 /* ////////////////////////// */
 /* NAV BAR */
-.navHome{
+.navHome {
     position: relative;
     top: 37px;
     grid-template-columns: 69px 123px 66px 121px;
@@ -69,21 +74,23 @@ text-align: initial;
     font-size: 16px;
     right: 13%;
 }
-.navMain{
+
+.navMain {
     background-image: url(../assets/home/Group\ 3.png);
     background-repeat: no-repeat;
     position: absolute;
-width: 95vw;
-height: 96px;
-left: 55px;
-top: 30px;
-background-size: cover;
+    width: 95vw;
+    height: 96px;
+    left: 55px;
+    top: 30px;
+    background-size: cover;
 }
 
 
-.active{
-     border-bottom: 3px rgb(255, 255, 255) solid; 
+.active {
+    border-bottom: 3px rgb(255, 255, 255) solid;
 }
+
 .nav a {
     padding: .5em .8em;
     color: rgb(255, 255, 255);
@@ -93,9 +100,12 @@ background-size: cover;
     padding-bottom: 35px;
     font-size: 14px;
     font-family: Barlow Condensed;
-  }
+}
+.nav a:hover{
+    border-bottom: 3px rgba(255, 255, 255, 0.229) solid;
+}
 
-.nav a::before,
+/* .nav a::before,
 .nav a::after {
     content: '';
     height: 14px;
@@ -112,36 +122,53 @@ background-size: cover;
     border-top: 3px solid #ffffff;
     border-right: 3px solid #000000;
     transform: translate(-100%, 50%);
-  }
-  .nav a:after {
+}
+
+.nav a:after {
     content: '';
     left: 0;
     bottom: 27px;
     border-bottom: 3px solid #fefefe;
     border-left: 3px solid #000000;
     transform: translate(100%, -50%);
-    
-  }
-  .nav a:hover:before,
-  .nav a:hover:after{
-    transform: translate(0,0);
+
+}
+
+.nav a:hover:before,
+.nav a:hover:after {
+    transform: translate(0, 0);
     opacity: 1;
-  }
-  
-  .nav a:hover {
+}
+
+.nav a:hover {
     color: #ffffff;
-  }
+} */
 
 
 /* ////////////////////////// */
-.circleImg{
+.circleImg {
     position: absolute;
-width: 274px;
-height: 274px;
-left: 1001px;
-top: 397px;
+    width: 274px;
+    height: 274px;
+    left: 1001px;
+    top: 397px;
 }
-.explore{
+.circleImg:hover{
+    border-radius: 50%;
+    animation: glow 3s  ;
+    animation-iteration-count: 2;
+  animation-direction: alternate;
+  }
+  @keyframes glow{
+      from{
+        box-shadow: 0px 0px 0px 0px #6c68688f;
+      }
+    to {
+        box-shadow: 0px 0px 0px 60px #6c68688f;
+    }
+  }
+
+.explore {
     position: relative;
     width: 9px;
     height: 12px;
@@ -149,7 +176,61 @@ top: 397px;
     top: 104px;
     text-align: -webkit-center;
     font-family: 'Bellefair';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+@media(max-width:426px) {
+    .backGround {
+        background-image: url("../assets/home/background-home-mobile.jpg");
+        background-size: cover;
+        height: 110vh;
+        background-repeat: no-repeat;
+    }
+
+    .mainText {
+        width: 421px;
+        left: 9px;
+        height: 121px;
+    }
+
+    .mainText h1 {
+        left: 3%;
+        right: 0px;
+        font-size: 117px;
+    }
+
+    .mainText h3 {
+        left: 3.11%;
+        right: 0px;
+        font-size: 18px;
+    }
+
+    .mainText p {
+        left: 3%;
+        font-size: 23px;
+        text-align: initial;
+        text-align-last: center;
+        width: 90%;
+        height: 82px;
+        top: calc(50% - 128px/2 + 42px);
+    }
+
+    .explore {
+        position: relative;
+        width: 9px;
+        height: 26px;
+        left: 134px;
+        top: 624px;
+        font-size: 32px;
+    }
+
+    .circleImg {
+        position: absolute;
+        width: 274px;
+        height: 271px;
+        left: 67px;
+        top: 639px;
+    }
 }
