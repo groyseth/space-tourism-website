@@ -3,18 +3,13 @@ import "../css/home.css"
 import { Nav, Navbar, Container } from 'react-bootstrap';
 import hamburger from "../assets/shared/icon-hamburger.svg"
 function NavTabs({ currentPage, handlePageChange }) {
-  const [click, setClick] = useState(false)
-
-  const handleClick = () => setClick(!click)
-  const closeMobileMenu = () => setClick(false);
+ const [menu, setMenu]=useState(false);
 
 
   return (
     <Navbar className='navMain' >
       <Container>
-      <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-        </div>
+      
 
         <Nav className="navHome">
           <div className='nav'>
@@ -67,6 +62,7 @@ function NavTabs({ currentPage, handlePageChange }) {
 
       </Container>
     </Navbar>
+    
 
 
   );

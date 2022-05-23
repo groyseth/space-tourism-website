@@ -190,7 +190,7 @@
     }
 
     .mainText {
-        width: 421px;
+        width: 387px;
         left: 9px;
         height: 121px;
     }
@@ -208,11 +208,11 @@
     }
 
     .mainText p {
-        left: 3%;
+        left: 4%;
         font-size: 23px;
         text-align: initial;
         text-align-last: center;
-        width: 90%;
+        width: 100%;
         height: 82px;
         top: calc(50% - 128px/2 + 42px);
     }
@@ -232,5 +232,8 @@
         height: 271px;
         left: 67px;
         top: 639px;
+    }
+    .navMain{
+        display: none;
     }
 }
