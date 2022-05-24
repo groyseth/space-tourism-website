@@ -237,20 +237,19 @@
         position: relative;
         width: 9px;
         height: 26px;
-        left: 74px;
-        top: 624px;
-        font-size: 32px;
+        left: 39vw;
+        top: 318px;
+        font-size: 24px;
        
     }
 
     .circleImg {
-        position: absolute;
         width: 140px;
-        /* position: relative; */
+        position: relative;
         height: 140px;
-        left: 35px;
+        left: 35vw;
         /* margin: auto; */
-        top: 497px;
+        top: 424px;
     }
     .navMain{
         display: none;
