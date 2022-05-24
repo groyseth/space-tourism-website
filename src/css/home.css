@@ -179,6 +179,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
+    cursor: pointer;
 }
 
 @media(max-width:426px) {
@@ -224,6 +225,7 @@
         left: 134px;
         top: 624px;
         font-size: 32px;
+       
     }
 
     .circleImg {

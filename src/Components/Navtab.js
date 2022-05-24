@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import "../css/home.css"
 import { Nav, Navbar, Container } from 'react-bootstrap';
-import hamburger from "../assets/shared/icon-hamburger.svg"
+import hamburgerNav from "../assets/shared/icon-hamburger.svg"
 function NavTabs({ currentPage, handlePageChange }) {
  const [menu, setMenu]=useState(false);
 
