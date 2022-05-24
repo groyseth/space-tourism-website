@@ -150,15 +150,15 @@
 
 
 /* ////////////////////////// */
-.circleImg {
+/* .circleImg {
     position: absolute;
     width: 274px;
     height: 274px;
     left: 1001px;
     top: 397px;
-}
+} */
 
-.circleImg:hover {
+.circleDiv:hover {
     border-radius: 50%;
     animation: glow 3s;
     animation-iteration-count: 2;
@@ -176,19 +176,29 @@
 }
 
 .explore {
-    position: relative;
-    width: 9px;
-    height: 12px;
-    left: 1065px;
-    top: 104px;
-    text-align: -webkit-center;
+    position: absolute;
+    /* width: 11%; */
+    /* height: 12px; */
+    left: 58px;
+    text-align: -webkit-auto;
+    top: 98px;
+    /* text-align: -webkit-center; */
     font-family: 'Bellefair';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
     cursor: pointer;
 }
-
+.cirlceDiv{
+    background-image: url(../assets/home/Group.png);
+    position: relative;
+    width: 274px;
+    height: 274px;
+    margin: auto;
+    left: 403px;
+    top: 41px;
+    background-repeat: no-repeat;
+}
 @media screen and (min-width:300px) {
     .backGround {
         background-image: url("../assets/home/background-home-mobile.jpg");
@@ -230,22 +240,20 @@
     }
 
     .explore {
-        position: relative;
         width: 9px;
         height: 26px;
-        left: 39vw;
-        top: 318px;
+        left: 81px;
+        top: 42px;
         font-size: 24px;
 
     }
 
-    .circleImg {
-        width: 140px;
-        position: relative;
-        height: 140px;
-        left: 35vw;
-        /* margin: auto; */
-        top: 424px;
+    .cirlceDiv{
+        left: 0px;
+        background-size: 132px;
+        background-position-x: center;
+        height: 133px;
+        top: 420px;
     }
 
     .navMain {
@@ -445,22 +453,22 @@ a.nav-link{
     .logo{
         display: none;
     }
-    .circleImg {
-        position: absolute;
-        width: 274px;
-        height: 274px;
-        left: 60vw;
-        top: 397px;
-    }
+ .cirlceDiv{
+    left: 416px;
+    background-size: 275px;
+    background-position-x: center;
+    height: 280px;
+    top: 85px;
+ }
     
     
     .explore {
         position: absolute;
-        width: 11%;
-        height: 12px;
-        left: 64vw;
+        /* width: 11%; */
+        /* height: 12px; */
+        left: 58.5px;
         text-align: -webkit-auto;
-        top: 489px;
+        top: 98px;
         /* text-align: -webkit-center; */
         font-family: 'Bellefair';
         font-style: normal;
