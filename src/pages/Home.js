@@ -16,8 +16,8 @@ export default function Home() {
         </p>
       </section>
       <div>
-        <img src={image} alt='cirlce' className='circleImg'></img>
-        
+        <img src={image} alt='cirlce' className='circleImg'>
+        </img>
         <h1 className='explore' onClick={() => window.location.replace("#Destonation")}  >EXPLORE</h1>
        
       </div>

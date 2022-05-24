@@ -105,6 +105,17 @@
     border-bottom: 3px rgba(255, 255, 255, 0.229) solid;
 }
 
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin-right: 2rem;
+  }
+
 /* .nav a::before,
 .nav a::after {
     content: '';
@@ -191,38 +202,42 @@
     }
 
     .mainText {
-        width: 387px;
+        width: 300px;
         left: 9px;
         height: 121px;
+        margin: auto;
     }
 
     .mainText h1 {
-        left: 3%;
+        left: 8%;
         right: 0px;
-        font-size: 117px;
+        font-size: 80px;
+        width: 20px;
     }
 
     .mainText h3 {
-        left: 3.11%;
-        right: 0px;
-        font-size: 18px;
+        left: 5.11%;
+        /* right: 0px; */
+        font-size: 11px;
+        width: 276px;
     }
 
     .mainText p {
-        left: 4%;
-        font-size: 23px;
+        left: 10%;
+        font-size: 15px;
         text-align: initial;
         text-align-last: center;
-        width: 100%;
+        width: 80%;
         height: 82px;
-        top: calc(50% - 128px/2 + 42px);
+        top: calc(50% - 128px/2 + -10px);
+    
     }
 
     .explore {
         position: relative;
         width: 9px;
         height: 26px;
-        left: 134px;
+        left: 74px;
         top: 624px;
         font-size: 32px;
        
@@ -230,10 +245,12 @@
 
     .circleImg {
         position: absolute;
-        width: 274px;
-        height: 271px;
-        left: 67px;
-        top: 639px;
+        width: 140px;
+        /* position: relative; */
+        height: 140px;
+        left: 35px;
+        /* margin: auto; */
+        top: 497px;
     }
     .navMain{
         display: none;
