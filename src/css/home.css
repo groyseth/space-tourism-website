@@ -101,7 +101,8 @@
     font-size: 14px;
     font-family: Barlow Condensed;
 }
-.nav a:hover{
+
+.nav a:hover {
     border-bottom: 3px rgba(255, 255, 255, 0.229) solid;
 }
 
@@ -155,20 +156,23 @@
     left: 1001px;
     top: 397px;
 }
-.circleImg:hover{
+
+.circleImg:hover {
     border-radius: 50%;
-    animation: glow 3s  ;
+    animation: glow 3s;
     animation-iteration-count: 2;
-  animation-direction: alternate;
-  }
-  @keyframes glow{
-      from{
+    animation-direction: alternate;
+}
+
+@keyframes glow {
+    from {
         box-shadow: 0px 0px 0px 0px #6c68688f;
-      }
+    }
+
     to {
         box-shadow: 0px 0px 0px 60px #6c68688f;
     }
-  }
+}
 
 .explore {
     position: relative;
@@ -184,7 +188,7 @@
     cursor: pointer;
 }
 
-@media(max-width:426px) {
+@media screen and (min-width:300px) {
     .backGround {
         background-image: url("../assets/home/background-home-mobile.jpg");
         background-size: cover;
@@ -221,7 +225,7 @@
         width: 80%;
         height: 82px;
         top: calc(50% - 128px/2 + -10px);
-    
+
     }
 
     .explore {
@@ -231,7 +235,7 @@
         left: 39vw;
         top: 318px;
         font-size: 24px;
-       
+
     }
 
     .circleImg {
@@ -242,10 +246,12 @@
         /* margin: auto; */
         top: 424px;
     }
-    .navMain{
+
+    .navMain {
         display: none;
     }
-    .mobileMenu{
+
+    .mobileMenu {
         background-image: url(../assets/shared/icon-hamburger.svg);
         width: 25px;
         position: relative;
@@ -254,13 +260,15 @@
         left: -25px;
         float: right;
     }
-    .testing{
+
+    .testing {
         width: 30px;
         height: 30px;
         font: 900;
         color: white;
     }
-    .menuActive{
+
+    .menuActive {
         color: white;
         width: 98vw;
         height: 100vh;
@@ -270,44 +278,52 @@
         position: absolute;
         z-index: 1;
     }
-    .navMobileMain{
+
+    .navMobileMain {
         position: relative;
-    top: 157px;
-    grid-template-rows: 20px 20px 20px 20px;
-    display: grid;
-    grid-gap: 41px;
-    justify-items: center;
+        top: 157px;
+        grid-template-rows: 20px 20px 20px 20px;
+        display: grid;
+        grid-gap: 41px;
+        justify-items: center;
     }
-  
+
 }
-@media screen and (max-width:821px) {
-    .backGround{
+
+@media screen and (min-width:700px) {
+    .backGround {
         background-image: url(../assets/home/background-home-tablet.jpg);
     }
-    .navMain{
+
+    .navMain {
         background-image: url(../assets/home/Rectangle.png);
         width: 61vw;
         left: 38%;
     }
-    .mainText{
+
+    .mainText {
         top: 327px;
     }
-    .explore{
+
+    .explore {
         left: 304px;
         top: 495px;
     }
-    .circleImg{
+
+    .circleImg {
         width: 268px;
         height: 268px;
         left: 249px;
         top: 783px;
     }
-    .mainText p{
+
+    .mainText p {
         top: calc(50% - 128px/2 + 89px);
         text-align-last: center;
         font-size: 22px;
     }
-    .logo{
+
+    .logo {
         background-image: url(../assets/shared/logo.svg);
         background-repeat: no-repeat;
         right: 636px;
@@ -315,9 +331,137 @@
         width: 59px;
         position: absolute;
     }
-    .mainText h1{
+
+    .mainText h1 {
         left: -6%;
         top: calc(50% - 172px/2 - 102px);
         font-size: 162px;
+    }
+
+    .navMain {
+        display: flex;
+    }
+
+    .mobileMenu {
+        display: none;
+    }
+}
+@media screen and (min-width:1020px) {
+    /* .mainText p {
+        position: absolute;
+        height: 128px;
+        left: 0.11%;
+        right: 1.22%;
+        top: calc(50% - 128px/2 + 87px);
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        color: #D0D6F9;
+        text-align: initial;
+    
+    } */
+    .mainText {
+        color: white;
+        width: 450px;
+        height: 382px;
+        left: -27vw;
+        top: 325px;
+        position: relative;
+    }
+    
+    .mainText p {
+        position: absolute;
+        height: 128px;
+        left: 0.11%;
+        right: 1.22%;
+        top: calc(50% - 128px/2 + 87px);
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        width: 30vw;
+        color: #D0D6F9;
+        text-align: initial;
+        text-align-last: auto;
+    }
+    
+    .mainText h1 {
+        position: absolute;
+        height: 172px;
+        left: 0%;
+        right: 1.11%;
+        top: calc(50% - 172px/2 - 102px);
+        font-family: 'Bellefair';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 150px;
+        line-height: 0px;
+        color: #FFFFFF;
+    }
+    
+    .mainText h3 {
+        position: relative;
+        height: 33px;
+        left: -0.89%;
+        right: 15.67%;
+        top: calc(50% - 34px/2 - 174px);
+        font-family: 'Barlow Condensed';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 34px;
+        letter-spacing: 3.725px;
+        color: #D0D6F9;
+        width: 102%;
+    }
+    .navHome {
+        position: relative;
+        top: 37px;
+        grid-template-columns: 69px 123px 66px 121px;
+        float: right;
+        display: grid;
+        /* font-family: Barlow Condensed; */
+        font-size: 16px;
+        right: -60%;
+    }
+    
+    .navMain {
+        background-image: url(../assets/home/Group\ 3.png);
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 95vw;
+        height: 96px;
+        left: 55px;
+        top: 30px;
+        background-size: cover;
+    }
+    .logo{
+        display: none;
+    }
+    .circleImg {
+        position: absolute;
+        width: 274px;
+        height: 274px;
+        left: 60vw;
+        top: 397px;
+    }
+    
+    
+    .explore {
+        position: absolute;
+        width: 11%;
+        height: 12px;
+        left: 64vw;
+        text-align: -webkit-auto;
+        top: 489px;
+        /* text-align: -webkit-center; */
+        font-family: 'Bellefair';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        cursor: pointer;
     }
 }
