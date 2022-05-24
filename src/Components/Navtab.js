@@ -1,19 +1,83 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import "../css/home.css"
 import { Nav, Navbar, Container } from 'react-bootstrap';
-import hamburgerNav from "../assets/shared/icon-hamburger.svg"
-function NavTabs({ currentPage, handlePageChange }) {
-  const [click, setClick] = useState(false)
- const handleClick = () => setClick(!click)
- const closeMobileMenu = () => setClick(false);
 
+
+function NavTabs({ currentPage, handlePageChange }) {
+  const [menu, setMenu] = useState(false)
+  const handleMenu = () => {
+    setMenu(true);
+  }
+  const closeMenu = () => {
+    setMenu(false);
+    alert("closed")
+  }
   return (
-    <Navbar className='navMain mobileMenu' >
-      <Container>
-      
-      <div className='' onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-        </div>
+    
+    <Navbar className='mobilePos'>
+      <div className='mobileMenu' onClick={() => handleMenu()} />
+<>
+        {menu ? (
+          <div className='menuActive'>
+            <Nav className="navMobileMain">
+              <div className='' onClick={()=>closeMenu()}>
+                <Nav.Link
+                  href="#home"
+                  onClick={() => handlePageChange('Home')}
+
+                  className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+                  
+                >
+                HOME
+                </Nav.Link>
+              </div >
+
+              <div className='nav'>
+                <Nav.Link
+                  href="#Destonation"
+
+                  onClick={() => handlePageChange('Destonation')}
+                  className={currentPage === 'Destonation' ? 'nav-link active' : 'nav-link'}
+                >
+                  DESTONATION
+                </Nav.Link>
+              </div>
+
+              <div className='nav'>
+                <Nav.Link
+                  href="#Crew"
+
+                  onClick={() => handlePageChange('Crew')}
+                  className={currentPage === 'Crew' ? 'nav-link active' : 'nav-link'}
+                >
+                  CREW
+                </Nav.Link>
+              </div>
+
+              <div className='nav' onClick={() => { }}>
+                <Nav.Link
+                  href="#Tech"
+
+                  onClick={() => handlePageChange('Tech')}
+                  className={currentPage === 'Tech' ? 'nav-link active' : 'nav-link'}
+                >
+                  TECHNOLOGY
+                </Nav.Link>
+              </div>
+
+
+
+            </Nav>
+
+          </div>
+         
+        ) : (<></>)}
+   
+     </>
+     
+      <Container className='navMain'>
+
+
 
         <Nav className="navHome">
           <div className='nav'>
@@ -49,7 +113,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             </Nav.Link>
           </div>
 
-          <div className='nav' onClick={() => {}}>
+          <div className='nav' onClick={() => { }}>
             <Nav.Link
               href="#Tech"
 
@@ -66,7 +130,7 @@ function NavTabs({ currentPage, handlePageChange }) {
 
       </Container>
     </Navbar>
-    
+
 
 
   );

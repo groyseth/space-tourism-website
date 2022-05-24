@@ -4,6 +4,7 @@ import Destonation from '../pages/Destonation';
 import NavTabs from './Navtab';
 import Crew from '../pages/Crew';
 import Tech from "../pages/Tech"
+import MobileMenu from './MobileMenu';
 export default function MainComponent() {
 
     const [currentPage, setCurrentPage] = useState('Home');
@@ -29,6 +30,7 @@ export default function MainComponent() {
     <div>
         <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
+     
     </div>
   )
 }
