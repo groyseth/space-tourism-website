@@ -10,7 +10,6 @@ function NavTabs({ currentPage, handlePageChange }) {
   }
   const closeMenu = () => {
     setMenu(false);
-    alert("closed")
   }
   return (
     
@@ -32,7 +31,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                 </Nav.Link>
               </div >
 
-              <div className='nav'>
+              <div className='nav' onClick={()=>closeMenu()}>
                 <Nav.Link
                   href="#Destonation"
 
@@ -43,7 +42,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                 </Nav.Link>
               </div>
 
-              <div className='nav'>
+              <div className='nav' onClick={()=>closeMenu()}>
                 <Nav.Link
                   href="#Crew"
 
@@ -54,7 +53,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                 </Nav.Link>
               </div>
 
-              <div className='nav' onClick={() => { }}>
+              <div className='nav' onClick={()=>closeMenu()}>
                 <Nav.Link
                   href="#Tech"
 
@@ -124,7 +123,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             </Nav.Link>
           </div>
 
-
+<div className='logo' />
 
         </Nav>
 

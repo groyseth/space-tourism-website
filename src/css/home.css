@@ -278,7 +278,46 @@
     grid-gap: 41px;
     justify-items: center;
     }
-    /* .mobilePos{
+  
+}
+@media screen and (max-width:821px) {
+    .backGround{
+        background-image: url(../assets/home/background-home-tablet.jpg);
+    }
+    .navMain{
+        background-image: url(../assets/home/Rectangle.png);
+        width: 61vw;
+        left: 38%;
+    }
+    .mainText{
+        top: 327px;
+    }
+    .explore{
+        left: 304px;
+        top: 495px;
+    }
+    .circleImg{
+        width: 268px;
+        height: 268px;
+        left: 249px;
+        top: 783px;
+    }
+    .mainText p{
+        top: calc(50% - 128px/2 + 89px);
+        text-align-last: center;
+        font-size: 22px;
+    }
+    .logo{
+        background-image: url(../assets/shared/logo.svg);
+        background-repeat: no-repeat;
+        right: 636px;
+        height: 58px;
+        width: 59px;
         position: absolute;
-    } */
+    }
+    .mainText h1{
+        left: -6%;
+        top: calc(50% - 172px/2 - 102px);
+        font-size: 162px;
+    }
 }
