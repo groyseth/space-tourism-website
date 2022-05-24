@@ -8,10 +8,10 @@ function NavTabs({ currentPage, handlePageChange }) {
  const closeMobileMenu = () => setClick(false);
 
   return (
-    <Navbar className='navMain' >
+    <Navbar className='navMain mobileMenu' >
       <Container>
       
-      <div className='menu-icon' onClick={handleClick}>
+      <div className='' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
         </div>
 
