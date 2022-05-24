@@ -89,6 +89,7 @@
 
 .active {
     border-bottom: 3px rgb(255, 255, 255) solid;
+    color: white;
 }
 
 .nav a {
@@ -271,8 +272,8 @@
     .menuActive {
         color: white;
         width: 98vw;
-        height: 100vh;
-        background: blue;
+        height: 110%;
+        background: #000000f5;
         left: 4px;
         /* float: left; */
         position: absolute;
@@ -284,11 +285,14 @@
         top: 157px;
         grid-template-rows: 20px 20px 20px 20px;
         display: grid;
-        grid-gap: 41px;
+        grid-gap: 77px;
         justify-items: center;
     }
-
+a.nav-link{
+    color: white;
 }
+}
+
 
 @media screen and (min-width:700px) {
     .backGround {
