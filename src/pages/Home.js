@@ -1,5 +1,5 @@
 import React from 'react'
-import "../css/home.css"
+import "../css/home.scss"
 import image from "../assets/home/Group.png"
 export default function Home() {
   return (
