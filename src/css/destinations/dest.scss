@@ -1,4 +1,7 @@
-.destBackGround{
+$tablet: 821px;
+$phone: 426px;
+
+.destBackGround {
     background-image: url(../../assets/destination/background-destination-desktop.jpg);
     background-size: cover;
     /* width: 100vw; */
@@ -6,24 +9,33 @@
     margin-top: -24px;
     background-repeat: no-repeat;
 }
-.name{
+
+.name {
     position: relative;
     float: right;
     top: 40vh;
     /* border: 4px white solid; */
     margin: auto;
     font-family: 'Bellefair';
-font-style: normal;
-font-weight: 400;
-font-size: 100px;
-line-height: 115px;
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 115px;
+    color: #FFFFFF;
+
+    @media (max-width:$tablet) {
+        top: 59vh;
+        left: -165px;
+    }
 }
-.nameEuropa{
+
+.nameEuropa {
     position: relative;
     float: right;
-    top: 40vh;
-    right: -100px;
+    top: 59vh;
+    left: -130px;
+    // top: 40vh;
+    // right: -100px;
     /* border: 4px white solid; */
     margin: auto;
     font-family: 'Bellefair';
@@ -33,15 +45,24 @@ color: #FFFFFF;
     line-height: 115px;
     color: #FFFFFF;
 }
-.planet{
+
+.planet {
     position: absolute;
     left: 204px;
     top: 301px;
     width: 459px;
     height: 459px;
 
+    @media (max-width:$tablet) {
+        width: 303px;
+        height: 304px;
+        left: -121px;
+        top: 0px;
+    }
+
 }
-.pickDest{
+
+.pickDest {
     position: absolute;
     /* width: 73%; */
     height: 34px;
@@ -58,14 +79,23 @@ color: #FFFFFF;
     color: #FFFFFF;
     grid-template-columns: 63px 653px 60px;
     display: grid;
+
+    @media (max-width:$tablet) {
+        left: 5.14%;
+        right: 4.57%;
+        top: calc(35% - 256px);
+        font-size: 16px;
+    }
 }
-.pickDestNum{
+
+.pickDestNum {
     color: #FFFFFF;
 
     mix-blend-mode: normal;
     opacity: 0.25;
 }
-.discript{
+
+.discript {
     position: absolute;
     height: 128px;
     /* left: 0%; */
@@ -78,12 +108,17 @@ color: #FFFFFF;
     line-height: 32px;
     width: 444px;
     color: #D0D6F9;
-}
-.stats{
- padding-top: 27px;
+
+    @media (max-width:$tablet) {
+        top: 798px;
+    }
 }
 
-.statPos{
+.stats {
+    padding-top: 27px;
+}
+
+.statPos {
     border-top: 2px #383B4B solid;
     position: absolute;
     width: 444px;
@@ -92,29 +127,53 @@ color: #FFFFFF;
     grid-gap: 64px;
     display: grid;
     grid-template-columns: 203px 206px;
+
+    @media (max-width:$tablet) {
+        right: 18.5%;
+        top: 78vh;
+    }
 }
-.distance{
+
+.distance {
     font-family: 'Bellefair';
-font-style: normal;
-font-weight: 400;
-font-size: 28px;
-line-height: 32px;
-/* identical to box height */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    /* identical to box height */
 
-text-transform: uppercase;
+    text-transform: uppercase;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
-.distanceNum{
+
+.distanceNum {
     font-family: 'Barlow Condensed';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
 
-letter-spacing: 2.3625px;
-text-transform: uppercase;
+    letter-spacing: 2.3625px;
+    text-transform: uppercase;
 
-color: #D0D6F9;
+    color: #D0D6F9;
+}
+
+@media (max-width:$tablet) {
+    .planetPlace {
+        text-align: -webkit-center;
+        margin: auto;
+        top: 237px;
+        width: 30px;
+        height: 30px;
+        position: relative;
+    }
+
+    .infoPlace {
+        top: -53px;
+        left: -63px;
+        position: relative;
+    }
 }

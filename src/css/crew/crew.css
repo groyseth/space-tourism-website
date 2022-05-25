@@ -6,10 +6,10 @@
     background-repeat: no-repeat;
 }
 
-.discript {
+/* .discript {
     position: absolute;
     height: 128px;
-    /* left: 0%; */
+   
     right: 10.22%;
     top: calc(50% - 54px/2 + 28px);
     font-family: 'Barlow';
@@ -19,7 +19,7 @@
     line-height: 32px;
     width: 444px;
     color: #D0D6F9;
-}
+} */
 
 
 .crewDis {

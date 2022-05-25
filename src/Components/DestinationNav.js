@@ -1,6 +1,6 @@
 import React from 'react'
 import { Nav, Navbar, Container } from 'react-bootstrap';
-import "../css/destinations/destNav.css"
+import "../css/destinations/destNav.scss"
 export default function DestinationNav({ currentPage, handlePageChange }) {
   return (
     <Navbar className='' >

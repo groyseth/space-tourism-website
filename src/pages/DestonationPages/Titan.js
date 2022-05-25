@@ -1,14 +1,18 @@
 import React from 'react'
-import "../../css/destinations/dest.css"
+import "../../css/destinations/dest.scss"
 import { destinations } from "../../data"
 import pic from "../../assets/destination/image-titan.png"
 
 export default function Titan() {
   return (
     <section className='navPlanets' id='Mars'>
-      <h1 className='name'>TITAN</h1>
-      <p className='discript'>{destinations[3].description}</p>
-      <img src={pic} alt="" className="planet" />
+      <div className='infoPlace'>
+        <h1 className='name'>TITAN</h1>
+        <p className='discript'>{destinations[3].description}</p>
+      </div>
+      <div className='planetPlace'>
+        <img src={pic} alt="" className="planet" />
+      </div>
 
       <div className='pickDest'>
         <h1 className='pickDestNum'>01</h1> <h1>Pick your destination</h1>
