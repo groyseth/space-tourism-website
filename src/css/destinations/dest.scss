@@ -32,11 +32,8 @@ $phone: 426px;
 .nameEuropa {
     position: relative;
     float: right;
-    top: 59vh;
-    left: -130px;
-    // top: 40vh;
-    // right: -100px;
-    /* border: 4px white solid; */
+    top: 39vh;
+    left: 58px;
     margin: auto;
     font-family: 'Bellefair';
     font-style: normal;
@@ -44,6 +41,10 @@ $phone: 426px;
     font-size: 100px;
     line-height: 115px;
     color: #FFFFFF;
+    @media (max-width:$tablet) {
+        top: 59vh;
+        left: -130px;
+    }
 }
 
 .planet {
