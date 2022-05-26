@@ -28,7 +28,7 @@ $phone: 426px;
 
     @media (max-width:$tablet) {
         top: -92px;
-        left: 62px;
+        left: -138px;
         right: 0px;
         float: none;
 
@@ -98,6 +98,7 @@ $phone: 426px;
         position: relative;
         top: 92px;
         font-size: 16px;
+        width: 95vw;
     }
 }
 
@@ -128,7 +129,7 @@ $phone: 426px;
     margin: auto;
     position: relative;
     right: 0px;
-    left: 0px;
+    left: -209px;
     }
 }
 
@@ -197,7 +198,7 @@ $phone: 426px;
 
     .infoPlace {
         top: 787px;
-        left: -201px;
+        // left: -201px;
         margin: auto;
         position: relative;
         height: 10px;
