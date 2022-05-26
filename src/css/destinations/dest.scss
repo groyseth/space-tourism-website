@@ -8,6 +8,9 @@ $phone: 426px;
     height: 107vh;
     margin-top: -24px;
     background-repeat: no-repeat;
+    @media (max-width:$tablet) {
+        height: 1410px;
+    }
 }
 
 .name {
@@ -24,26 +27,32 @@ $phone: 426px;
     color: #FFFFFF;
 
     @media (max-width:$tablet) {
-        top: 59vh;
-        left: -165px;
+        top: -92px;
+        left: 62px;
+        right: 0px;
+        float: none;
+
     }
 }
 
 .nameEuropa {
     position: relative;
     float: right;
-    top: 39vh;
-    left: 58px;
+    top: 40vh;
+    /* border: 4px white solid; */
     margin: auto;
-    font-family: 'Bellefair';
+    font-family: "Bellefair";
     font-style: normal;
     font-weight: 400;
     font-size: 100px;
     line-height: 115px;
     color: #FFFFFF;
+
     @media (max-width:$tablet) {
-        top: 59vh;
-        left: -130px;
+        top: -92px;
+    left: 28px;
+    right: 0px;
+    float: none;
     }
 }
 
@@ -59,6 +68,7 @@ $phone: 426px;
         height: 304px;
         left: -121px;
         top: 0px;
+        position: relative;
     }
 
 }
@@ -84,7 +94,9 @@ $phone: 426px;
     @media (max-width:$tablet) {
         left: 5.14%;
         right: 4.57%;
-        top: calc(35% - 256px);
+        /* top: calc(36% - 281px); */
+        position: relative;
+        top: 92px;
         font-size: 16px;
     }
 }
@@ -111,7 +123,12 @@ $phone: 426px;
     color: #D0D6F9;
 
     @media (max-width:$tablet) {
-        top: 798px;
+        top: -81px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    right: 0px;
+    left: 0px;
     }
 }
 
@@ -130,8 +147,14 @@ $phone: 426px;
     grid-template-columns: 203px 206px;
 
     @media (max-width:$tablet) {
-        right: 18.5%;
-        top: 78vh;
+        top: 935px;
+        margin: auto;
+        width: 612px;
+        right: 0px;
+        position: relative;
+        grid-gap: 15px;
+        display: grid;
+        grid-template-columns: 438px 191px;
     }
 }
 
@@ -173,8 +196,11 @@ $phone: 426px;
     }
 
     .infoPlace {
-        top: -53px;
-        left: -63px;
+        top: 787px;
+        left: -201px;
+        margin: auto;
         position: relative;
+        height: 10px;
+        width: 10px;
     }
 }
