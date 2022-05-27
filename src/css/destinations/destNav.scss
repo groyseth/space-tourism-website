@@ -1,5 +1,6 @@
 $tablet: 821px;
 $phone: 426px;
+$smphone:321px;
 .placeMent{
     position: absolute;
     top: 45vh;
@@ -18,6 +19,13 @@ $phone: 426px;
         margin: auto;
         float: none;
         right: 0%;
+    }
+    @media (max-width:$phone) {
+        top: 491px;
+    }
+    @media (max-width:$smphone) {
+        grid-template-columns: 80px 74px 91px 46px;
+        right: -10px;
     }
 }
 .destNav a:hover{

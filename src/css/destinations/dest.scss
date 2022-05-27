@@ -1,5 +1,6 @@
 $tablet: 821px;
 $phone: 426px;
+$smphone: 321px;
 
 .destBackGround {
     background-image: url(../../assets/destination/background-destination-desktop.jpg);
@@ -8,8 +9,14 @@ $phone: 426px;
     height: 107vh;
     margin-top: -24px;
     background-repeat: no-repeat;
+
     @media (max-width:$tablet) {
         height: 1410px;
+    }
+
+    @media (max-width:$phone) {
+        background-image: url(../../assets/destination/background-destination-mobile.jpg);
+
     }
 }
 
@@ -33,6 +40,12 @@ $phone: 426px;
         float: none;
 
     }
+
+    @media (max-width:$phone) {
+        top: -205px;
+        font-size: 85px;
+        left: -124px;
+    }
 }
 
 .nameEuropa {
@@ -52,8 +65,18 @@ $phone: 426px;
     @media (max-width:$tablet) {
         top: -92px;
         left: -175px;
-    right: 0px;
-    float: none;
+        right: 0px;
+        float: none;
+    }
+
+    @media (max-width:$phone) {
+        top: -220px;
+        left: -161px;
+        font-size: 85px;
+    }
+    @media (max-width:$smphone) {
+        left: -152px;
+        font-size: 80px;
     }
 }
 
@@ -70,6 +93,19 @@ $phone: 426px;
         left: -121px;
         top: 0px;
         position: relative;
+    }
+
+    @media (max-width:$phone) {
+        width: 205px;
+        top: -59px;
+        height: 205px;
+        left: -81px;
+    }
+    @media (max-width:$smphone) {
+        width: 172px;
+        top: -59px;
+        height: 171px;
+        left: -68px;
     }
 
 }
@@ -92,6 +128,8 @@ $phone: 426px;
     grid-template-columns: 63px 653px 60px;
     display: grid;
 
+
+
     @media (max-width:$tablet) {
         left: 5.14%;
         right: 4.57%;
@@ -100,6 +138,17 @@ $phone: 426px;
         top: 92px;
         font-size: 16px;
         width: 95vw;
+    }
+
+    @media (max-width:$phone) {
+        grid-template-columns: 50px 294px 20px;
+        font-size: 12px;
+        top: 57px;
+    }
+
+    @media (max-width:$smphone) {
+        font-size: 9px;
+        grid-template-columns: 50px 235px;
     }
 }
 
@@ -126,11 +175,17 @@ $phone: 426px;
 
     @media (max-width:$tablet) {
         top: -81px;
-    text-align: center;
-    margin: auto;
-    position: relative;
-    right: 0px;
-    left: -209px;
+        text-align: center;
+        margin: auto;
+        position: relative;
+        right: 0px;
+        left: -209px;
+    }
+
+    @media (max-width:$phone) {
+        top: -157px;
+        left: -146px;
+        width: 309px;
     }
 }
 
@@ -157,6 +212,25 @@ $phone: 426px;
         grid-gap: 15px;
         display: grid;
         grid-template-columns: 438px 191px;
+    }
+
+    @media (max-width:$phone) {
+        top: 935px;
+        margin: auto;
+        width: 330px;
+        position: relative;
+        text-align: center;
+        right: 0px;
+        display: grid;
+        grid-template: none ;
+    }
+    @media (max-width:$smphone) {
+        top: 935px;
+        
+        width: 259px;
+      
+        display: grid;
+        grid-template: none;
     }
 }
 
