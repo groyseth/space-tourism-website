@@ -39,6 +39,7 @@ $phone: 426px;
     position: relative;
     float: right;
     top: 40vh;
+    left: 85px;
     /* border: 4px white solid; */
     margin: auto;
     font-family: "Bellefair";
@@ -50,7 +51,7 @@ $phone: 426px;
 
     @media (max-width:$tablet) {
         top: -92px;
-    left: 28px;
+        left: -175px;
     right: 0px;
     float: none;
     }

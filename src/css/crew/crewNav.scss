@@ -1,23 +1,38 @@
-.crewNav{
+$tablet: 821px;
+$phone: 426px;
+
+.crewNav {
     position: relative;
     top: 700px;
     right: -6%;
     display: grid;
     grid-template-columns: 30px 30px 30px 30px;
     width: 10%;
+
+    @media (max-width:$tablet) {
+        top: 623px;
+        margin: auto;
+        right: 0px;
+        grid-gap: 20px;
+        display: grid;
+        width: 23%;
+    }
 }
-.circleNav:hover{
+
+.circleNav:hover {
     background-color: rgba(255, 255, 255, 0.348);
 }
-.circleNav{
+
+.circleNav {
     width: 15px;
     height: 15px;
     background: #ffffff;
     border: 1px solid #000;
     border-radius: 50%;
 }
-.cirlceActive{
+
+.cirlceActive {
     background: #FFFFFF;
-mix-blend-mode: normal;
-opacity: 0.17;
+    mix-blend-mode: normal;
+    opacity: 0.17;
 }

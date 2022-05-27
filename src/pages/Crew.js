@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import CrewNav from "../Components/CrewNav"
-import '../css/crew/crew.css'
+import '../css/crew/crew.scss'
 import Douglas from './CrewPages/Douglas';
 import Mark from './CrewPages/Mark';
 import Victor from './CrewPages/Victor';

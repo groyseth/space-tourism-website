@@ -1,7 +1,7 @@
 import React from 'react'
 import { crew } from "../../data"
 import pic from "../../assets/crew/image-mark-shuttleworth.png"
-import "../../css/crew/crew.css"
+import "../../css/crew/crew.scss"
 export default function Mark() {
     return (
         <section className='navPlanets'>
@@ -9,7 +9,7 @@ export default function Mark() {
             
             <img src={pic} alt="" className="crewPic" />
 
-            <div className='pickDest'>
+            <div className='pickCrew'>
                 <h1 className='pickDestNum'>02</h1> <h1>MEET YOUR CREW</h1>
             </div>
             <section className='crewInfo'>
