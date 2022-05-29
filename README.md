@@ -46,10 +46,9 @@ The challenge is to build out this multi-page space tourism website and get it l
 
 
 
-### Continued development
+### Thoughts
 
-I think this project will be useful for when I want to implement a feedback loop. Just a good thing in the back pocket if I need it.
-
+I thoughly enjoyed this project. I like taking a design and making it a living reality. I learned a huge stratagy with media qurries, which is where scss came into play. 
 
 
 ## Author
