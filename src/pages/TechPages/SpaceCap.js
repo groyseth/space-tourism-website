@@ -1,15 +1,17 @@
 import React from 'react'
 import { technology } from "../../data"
 import pic from "../../assets/technology/image-space-capsule-portrait.jpg"
-import "../../css/tech/tech.css"
+import mediaPic from "../../assets/technology/image-space-capsule-landscape.jpg"
+import "../../css/tech/tech.scss"
 export default function SpaceCap() {
     return (
         <section className='navPlanets'>
 
 
             <img src={pic} alt="" className="techPic" />
+            <img src={mediaPic} alt="" className='mediaPic' />
 
-            <div className='pickDest'>
+            <div className='picTech'>
                 <h1 className='pickDestNum'>03</h1> <h1>SPACE LAUNCH 101</h1>
             </div>
             

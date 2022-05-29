@@ -27,7 +27,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                   className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
                   
                 >
-                HOME
+               <strong>00</strong> HOME
                 </Nav.Link>
               </div >
 
@@ -38,7 +38,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                   onClick={() => handlePageChange('Destonation')}
                   className={currentPage === 'Destonation' ? 'nav-link active' : 'nav-link'}
                 >
-                  DESTONATION
+                 <strong>01</strong> DESTONATION
                 </Nav.Link>
               </div>
 
@@ -49,7 +49,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                   onClick={() => handlePageChange('Crew')}
                   className={currentPage === 'Crew' ? 'nav-link active' : 'nav-link'}
                 >
-                  CREW
+                <strong>02</strong>  CREW
                 </Nav.Link>
               </div>
 
@@ -60,7 +60,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                   onClick={() => handlePageChange('Tech')}
                   className={currentPage === 'Tech' ? 'nav-link active' : 'nav-link'}
                 >
-                  TECHNOLOGY
+                <strong>03</strong>  TECHNOLOGY
                 </Nav.Link>
               </div>
 
@@ -86,7 +86,7 @@ function NavTabs({ currentPage, handlePageChange }) {
 
               className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
             >
-              HOME
+            HOME
             </Nav.Link>
           </div >
 

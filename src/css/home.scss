@@ -152,6 +152,7 @@ $phone: 426px;
         background-image: url(../assets/home/Rectangle.png);
         width: 454px;
         left: 41%;
+        top: 3px;
     }
 
     @media (max-width:$phone) {
@@ -174,6 +175,16 @@ $phone: 426px;
     padding-bottom: 35px;
     font-size: 14px;
     font-family: Barlow Condensed;
+    @media (max-width:$phone) {
+        font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 2.7px;
+
+color: #FFFFFF;
+    }
 }
 
 .nav a:hover {
@@ -309,12 +320,13 @@ $phone: 426px;
 
     .menuActive {
         color: white;
-        width: 98vw;
+        width: 69vw;
         height: 110%;
-        background: #000000f5;
-        left: 4px;
+        left: 31vw;
         position: absolute;
         z-index: 1;
+        background: rgba(255, 255, 255, 0.04);
+backdrop-filter: blur(81.5485px);
     }
 
     .navMobileMain {

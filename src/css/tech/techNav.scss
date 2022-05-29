@@ -1,3 +1,5 @@
+$tablet: 821px;
+$phone: 426px;
 .techNav{
     position: absolute;
     top: 305px;
@@ -5,6 +7,11 @@
     display: grid;
     /* grid-template-columns: 30px 30px 30px 30px; */
     width: 10%;
+    @media (max-width:$tablet) {
+        grid-template-columns: 93px 103px 30px;
+        right: 58%;
+        top: 536px;
+    }
 }
 
 
@@ -32,4 +39,14 @@ color: black;
     line-height: 0px;
     margin-bottom: 12px;
     color: #FFFFFF;
+    @media (max-width:$tablet) {
+        width: 58px;
+        height: 58px;
+    }
+}
+.techCircle h1{
+    top: 50%;
+    position: relative;
+    margin: auto;
+    font-size: 24px;
 }

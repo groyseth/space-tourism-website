@@ -10,6 +10,11 @@ $phone: 426px;
         background-image: url(../../assets/crew/background-crew-tablet.jpg);
         height: 1208px;
     }
+    @media (max-width:$phone) {
+        background-image: url(../../assets/crew/background-crew-mobile.jpg);
+        height: 934px;
+        width: 100%;
+    }
 }
 
 .pickCrew {
@@ -39,6 +44,12 @@ $phone: 426px;
         font-size: 16px;
         width: 95vw;
     }
+    @media (max-width:$phone) {
+        grid-template-columns: 80px 269px;
+        font-size: 13px;
+        text-align: center;
+        top: 86px;
+    }
 }
 
 
@@ -54,7 +65,11 @@ $phone: 426px;
     left: 0px;
     text-align: -webkit-center;
     margin: auto;
-    top: 14vh;
+    top: 220px;
+    }
+    @media (max-width:$phone) {
+        top: 600px;
+        width: 420px;
     }
 }
 
@@ -68,6 +83,14 @@ $phone: 426px;
 
 
     color: #D0D6F9;
+    @media (max-width:$tablet) {
+        font-size: 16px;
+    }
+    @media (max-width:$phone) {
+        font-size: 15px;
+        width: 356px;
+
+    }
 }
 
 .crewPic {
@@ -82,6 +105,12 @@ $phone: 426px;
     height: 519px;
     right: 23%;
     }
+    @media (max-width:$phone) {
+        top: 150px;
+        width: 283.07px;
+        height: 379px;
+        right: 18%;
+    }
 }
 
 .crewInfo {
@@ -91,10 +120,15 @@ $phone: 426px;
     width: 48%;
     @media (max-width:$tablet) {
         right: 0px;
-        top: 180px;
+        top: 261px;
     margin: auto;
     width: fit-content;
     text-align-last: center;
+    }
+    @media (max-width:$phone) {
+        right: 0px;
+        top: 626px;
+       
     }
 }
 
@@ -107,6 +141,14 @@ $phone: 426px;
     color: #FFFFFF;
     position: relative;
     top: -40px;
+    @media (max-width:$tablet) {
+        font-size: 40px;
+        top: -33px;
+    }
+    @media (max-width:$phone) {
+        top: -22px;
+        font-size: 24px;
+    }
 }
 
 .crewRole {
@@ -122,4 +164,10 @@ $phone: 426px;
 
     mix-blend-mode: normal;
     opacity: 0.5;
+    @media (max-width:$tablet) {
+        font-size: 24px;
+    }
+    @media (max-width:$phone) {
+        font-size: 16px;
+    }
 }

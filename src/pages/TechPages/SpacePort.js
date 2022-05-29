@@ -1,15 +1,16 @@
 import React from 'react'
 import { technology } from "../../data"
 import pic from "../../assets/technology/image-spaceport-portrait.jpg"
-import "../../css/tech/tech.css"
+import mediaPic from "../../assets/technology/image-spaceport-landscape.jpg"
+import "../../css/tech/tech.scss"
 export default function SpacePort() {
     return (
         <section className='navPlanets'>
 
 
             <img src={pic} alt="" className="techPic" />
-
-            <div className='pickDest'>
+            <img src={mediaPic} alt="" className='mediaPic' />
+            <div className='picTech'>
                 <h1 className='pickDestNum'>03</h1> <h1>SPACE LAUNCH 101</h1>
             </div>
             

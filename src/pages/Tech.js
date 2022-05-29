@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import TechNav from "../Components/TechNav"
-import '../css/tech/tech.css'
+import '../css/tech/tech.scss'
 import Vehical from "./TechPages/Vehical"
 import SpacePort from './TechPages/SpacePort'
 import SpaceCap from './TechPages/SpaceCap'
