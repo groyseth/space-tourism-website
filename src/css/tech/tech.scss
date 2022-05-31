@@ -80,7 +80,7 @@ $smphone: 321px;
 .techPic {
     width: 462.07px;
     height: 506px;
-    right: 0%;
+    right: 1%;
     float: right;
     position: relative;
     top: 25.5vh;
@@ -193,6 +193,7 @@ $smphone: 321px;
         left: 4vw;
     }
 }
+
 
 @media (max-width:$deskTop) {
     .mediaPic {
