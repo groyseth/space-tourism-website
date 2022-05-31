@@ -45,6 +45,45 @@ $smphone:321px;
 
     }
 }
+.header{
+    font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+/* identical to box height */
+
+letter-spacing: 4.725px;
+
+color: #D0D6F9;
+width: 519px;
+@media (max-width:$tablet) {
+    font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+    line-height: 24px;
+    left: -45px;
+    position: relative;
+    text-align: center;
+    letter-spacing: 3.375px;
+    color: #D0D6F9;
+}
+@media (max-width:$phone) {
+    font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 2.7px;
+top: -142px;
+left: 4px;
+position: relative;
+width: 145px;
+width: 294px;
+}
+}
 
 .mainText p {
     position: absolute;
@@ -328,7 +367,7 @@ color: #FFFFFF;
         width: 247px;
         height: 72px;
         margin: auto;
-        left: -14px;
+        left: -16px;
         top: 575px;
         /* left: -423px; */
         position: relative;
