@@ -84,7 +84,7 @@ $smphone: 321px;
 
 .planet {
     position: absolute;
-    left: 204px;
+    left: 103px;
     top: 301px;
     width: 459px;
     height: 459px;
@@ -282,4 +282,10 @@ $smphone: 321px;
         height: 10px;
         width: 10px;
     }
+}
+.logo{
+    display: none;
+}
+.circleDiv{
+    display: none;
 }

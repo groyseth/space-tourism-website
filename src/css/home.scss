@@ -1,6 +1,6 @@
 $tablet: 821px;
 $phone: 426px;
-
+$smphone:321px;
 .backGround {
     background-image: url(../assets/home/background-home-desktop.jpg);
     background-size: cover;
@@ -291,7 +291,7 @@ color: #FFFFFF;
     font-weight: 400;
     font-size: 32px;
     cursor: pointer;
-
+    color: black;
     @media (max-width:$phone) {
         height: 26px;
     left: 87px;
@@ -300,34 +300,49 @@ color: #FFFFFF;
     font-size: 24px;
     }
 }
+// .activeExplore{
+//     display: none;
+// }
+.inAct{
+    display: none;
+}
 
 .cirlceDiv {
     background-image: url(../assets/home/Group.png);
-    position: relative;
+    position: absolute;
     width: 274px;
     height: 274px;
     margin: auto;
-    left: 403px;
-    top: 41px;
+    left: 67vw;
+    top: 375px;
     background-repeat: no-repeat;
 
     @media (max-width:$tablet) {
         background-size: 280px;
         height: 291px;
         width: 281px;
-        top: 534px;
+        top: 861px;
         background-position-x: center;
-        left: 0px;
+        left: 244px;
+    
     }
 
     @media (max-width:$phone) {
-        left: 0px;
+        left: 73px;
         background-size: 132px;
         background-position-x: center;
         height: 133px;
-        top: 447px;
+        top: 530px;
+    }
+    @media (max-width:$smphone) {
+        left: 19px;
+        background-size: 132px;
+        background-position-x: center;
+        height: 133px;
+        top: 529px;
     }
 }
+
 
 
 @media (max-width:$phone) {

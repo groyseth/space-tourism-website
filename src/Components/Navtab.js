@@ -5,12 +5,15 @@ import { Nav, Navbar, Container } from 'react-bootstrap';
 
 function NavTabs({ currentPage, handlePageChange }) {
   const [menu, setMenu] = useState(false)
+  const [explorer, setExplorer] = useState(true)
   const handleMenu = () => {
     setMenu(true);
   }
   const closeMenu = () => {
     setMenu(false);
   }
+  
+ 
   return (
     
     <Navbar className='mobilePos'>
@@ -125,9 +128,25 @@ function NavTabs({ currentPage, handlePageChange }) {
 
 <div className='logo' />
 
+
+
         </Nav>
 
       </Container>
+      <Nav>
+      <Nav.Link
+              href="#Destonation"
+
+              onClick={() => handlePageChange('Destonation')}
+              className={currentPage === 'Home' ? 'nav-link ' : 'nav-link inAct'}
+            >
+
+ <div className='cirlceDiv'  >             
+    <h1 className='explore'   >EXPLORE</h1>
+   </div> 
+
+    </Nav.Link>
+      </Nav>
     </Navbar>
 
 

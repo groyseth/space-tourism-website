@@ -15,13 +15,12 @@ export default function Home() {
           because we’ll give you a truly out of this world experience!
         </p>
       </section>
-      <div className='cirlceDiv'>
+      {/* <div className='cirlceDiv'>
         <h1 className='explore' onClick={() => window.location.replace("#Destonation")}  >EXPLORE</h1>
-      </div>
+      </div> */}
+    
+      
       
     </div>
   )
 }
-{/* <Nav.Link href="#features">01 Destination</Nav.Link>
-      <Nav.Link href="#pricing">02 Crew</Nav.Link>
-      <Nav.Link href="#pricing">03 Technology</Nav.Link> */}
