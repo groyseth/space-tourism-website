@@ -29,7 +29,7 @@ The challenge is to build out this multi-page space tourism website and get it l
 ### Links
 
 <!-- - Solution URL: [Link](https://www.frontendmentor.io/solutions/interactiveratingcomponent-mfcBwVj6y7) -->
-- Live Site URL: [Link](https://space-tourism-website-112.herokuapp.com/)
+- Live Site URL: [Link](https://groyseth.github.io/space-tourism-website/)
 
 ## My process
 
