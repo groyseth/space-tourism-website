@@ -68,7 +68,7 @@ $smphone:321px;
         left: 10%;
         font-size: 15px;
         text-align: initial;
-        text-align-last: center;
+        text-align: center;
         width: 80%;
         height: 82px;
         top: calc(50% - 128px/2 + -10px);
@@ -285,7 +285,7 @@ color: #FFFFFF;
 
 .explore {
     position: absolute;
-    left: 58px;
+    left: 65px;
     text-align: -webkit-auto;
     top: 98px;
     font-family: 'Bellefair';
@@ -329,7 +329,7 @@ color: #FFFFFF;
         height: 72px;
         margin: auto;
         left: -18px;
-        top: 516px;
+        top: 575px;
         /* left: -423px; */
         position: relative;
     }
@@ -417,5 +417,6 @@ backdrop-filter: blur(81.5485px);
         height: 54px;
         top: -5px;
         background-repeat: no-repeat;
+        
     }
 }
