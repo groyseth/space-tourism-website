@@ -1,30 +1,51 @@
 $tablet: 821px;
 $phone: 426px;
-.techNav{
+$smphone: 321px;
+
+.techNav {
     position: absolute;
     top: 305px;
     right: 83%;
     display: grid;
     /* grid-template-columns: 30px 30px 30px 30px; */
     width: 10%;
+
     @media (max-width:$tablet) {
-        grid-template-columns: 93px 103px 30px;
-        right: 58%;
-        top: 536px;
+        grid-template-columns: 90px 90px 30px;
+        /* right: 58%; */
+        top: 628px;
+        margin: auto;
+        position: relative;
+        right: 0px;
+        width: 32%;
+    }
+
+    @media (max-width:$phone) {
+        margin: auto;
+        position: relative;
+        right: -11px;
+        width: 57%;
+    }
+
+    @media (max-width:$smphone) {
+        width: 75%;
+        top: 593px;
     }
 }
 
 
 
-.techActive div.techCircle{
-opacity: 1.0;
-background-color: white;
-color: black;
+.techActive div.techCircle {
+    opacity: 1.0;
+    background-color: white;
+    color: black;
 }
-.techCircle:hover{
+
+.techCircle:hover {
     opacity: 1.0;
 }
-.techCircle{
+
+.techCircle {
     width: 80px;
     height: 80px;
     background: #33323200;
@@ -39,12 +60,14 @@ color: black;
     line-height: 0px;
     margin-bottom: 12px;
     color: #FFFFFF;
+
     @media (max-width:$tablet) {
         width: 58px;
         height: 58px;
     }
 }
-.techCircle h1{
+
+.techCircle h1 {
     top: 50%;
     position: relative;
     margin: auto;

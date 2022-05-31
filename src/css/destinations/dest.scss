@@ -43,8 +43,8 @@ $smphone: 321px;
 
     @media (max-width:$phone) {
         top: -205px;
-        font-size: 85px;
-        left: -124px;
+        font-size: 59px;
+        left: -83px;
     }
 }
 
@@ -70,13 +70,15 @@ $smphone: 321px;
     }
 
     @media (max-width:$phone) {
-        top: -220px;
-        left: -161px;
-        font-size: 85px;
+        top: -205px;
+        left: -113px;
+    font-size: 60px;
     }
     @media (max-width:$smphone) {
-        left: -152px;
-        font-size: 80px;
+    
+        left: -107px;
+        font-size: 60px;
+    
     }
 }
 
@@ -183,9 +185,10 @@ $smphone: 321px;
     }
 
     @media (max-width:$phone) {
-        top: -157px;
+        top: -212px;
         left: -146px;
-        width: 309px;
+        width: 300px;
+        font-size: 15px;
     }
 }
 
@@ -215,7 +218,7 @@ $smphone: 321px;
     }
 
     @media (max-width:$phone) {
-        top: 935px;
+        top: 851px;
         margin: auto;
         width: 330px;
         position: relative;
@@ -225,7 +228,7 @@ $smphone: 321px;
         grid-template: none ;
     }
     @media (max-width:$smphone) {
-        top: 935px;
+        top: 851px;
         
         width: 259px;
       

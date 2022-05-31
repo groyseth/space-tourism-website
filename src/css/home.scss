@@ -12,6 +12,7 @@ $phone: 426px;
     @media (max-width:$tablet) {
         background-image: url(../assets/home/background-home-tablet.jpg);
         height: 1410px;
+        width: 100vw;
     }
 
     @media (max-width:$phone) {
@@ -58,6 +59,10 @@ $phone: 426px;
     line-height: 32px;
     color: #D0D6F9;
     text-align: initial;
+    @media (max-width:$tablet) {
+       font-size: 16px;
+       text-align: center;
+    }
 
     @media (max-width:$phone) {
         left: 10%;
@@ -126,15 +131,19 @@ $phone: 426px;
 .navHome {
     position: relative;
     top: 37px;
-    grid-template-columns: 69px 123px 66px 121px;
-    float: right;
+    grid-template-columns: 136px 181px 125px 165px;
+    /* float: right; */
     display: grid;
     /* font-family: Barlow Condensed; */
     font-size: 16px;
-    right: 13%;
+    right: -46vw;
+    width: 97px;
 
     @media (max-width:$tablet) {
-        right: 9px;
+        grid-template-columns: 83px 140px 83px 118px;
+        font-size: 14px;
+        right: -1vw;
+        width: 57px;
     }
 }
 
@@ -173,7 +182,7 @@ $phone: 426px;
     text-decoration: none;
     text-align: right;
     padding-bottom: 35px;
-    font-size: 14px;
+    // font-size: 14px;
     font-family: Barlow Condensed;
     @media (max-width:$phone) {
         font-family: 'Barlow Condensed';
@@ -191,6 +200,19 @@ color: #FFFFFF;
     border-bottom: 3px rgba(255, 255, 255, 0.229) solid;
 }
 
+.navNumber{
+    font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 2.7px;
+
+color: #FFFFFF;
+@media (max-width:$tablet) {
+    display: none;
+}
+}
 
 
 /* .nav a::before,
@@ -307,6 +329,7 @@ color: #FFFFFF;
     }
 }
 
+
 @media (max-width:$phone) {
     .mobileMenu {
         background-image: url(../assets/shared/icon-hamburger.svg);
@@ -316,6 +339,7 @@ color: #FFFFFF;
         top: 33px;
         left: -25px;
         float: right;
+        display:initial;
     }
 
     .menuActive {
@@ -336,6 +360,7 @@ backdrop-filter: blur(81.5485px);
         display: grid;
         grid-gap: 77px;
         justify-items: center;
+        // display:initial;
     }
 
     a.nav-link {
@@ -346,9 +371,9 @@ backdrop-filter: blur(81.5485px);
     .logo{
         background-image: url(../assets/shared/logo.svg);
         width: 55px;
-        left: -370px;
+        left: -276px;
         position: absolute;
-        height: 47px;
+        height: 54px;
         top: -5px;
         background-repeat: no-repeat;
     }

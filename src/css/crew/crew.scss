@@ -1,5 +1,6 @@
 $tablet: 821px;
 $phone: 426px;
+$smphone: 376px;
 .crewBackGround {
     background-image: url(../../assets/crew/background-crew-desktop.jpg);
     background-size: cover;
@@ -14,6 +15,9 @@ $phone: 426px;
         background-image: url(../../assets/crew/background-crew-mobile.jpg);
         height: 934px;
         width: 100%;
+    }
+    @media (max-width:$smphone) {
+        height: 951px;
     }
 }
 
@@ -50,6 +54,10 @@ $phone: 426px;
         text-align: center;
         top: 86px;
     }
+    @media (max-width:$smphone) {
+        grid-template-columns: 80px 224px;
+        left: -1.86%;
+    }
 }
 
 
@@ -68,8 +76,11 @@ $phone: 426px;
     top: 220px;
     }
     @media (max-width:$phone) {
-        top: 600px;
+        top: 570px;
         width: 420px;
+    }
+    @media (max-width:$smphone) {
+        width: 300px;
     }
 }
 
@@ -91,6 +102,10 @@ $phone: 426px;
         width: 356px;
 
     }
+    @media (max-width:$smphone) {
+        font-size: 13px;
+        width: 250px;
+    }
 }
 
 .crewPic {
@@ -100,16 +115,22 @@ $phone: 426px;
     position: absolute;
     top: 26.5vh;
     @media (max-width:$tablet) {
-        top: 664px;
-        width: 429.07px;
-    height: 519px;
-    right: 23%;
+        top: 693px;
+        width: 408.07px;
+        height: 490px;
+        right: 23%;
     }
     @media (max-width:$phone) {
-        top: 150px;
-        width: 283.07px;
-        height: 379px;
-        right: 18%;
+        top: 226px;
+        width: 254.07px;
+        height: 338px;
+        right: 22%;
+        border-bottom: 1px #4c5065 solid;
+    }
+    @media (max-width:$smphone) {
+        right: 14%;
+        width: 217.07px;
+        height: 272px;
     }
 }
 
@@ -127,7 +148,7 @@ $phone: 426px;
     }
     @media (max-width:$phone) {
         right: 0px;
-        top: 626px;
+        top: 600px;
        
     }
 }

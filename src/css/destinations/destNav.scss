@@ -22,6 +22,8 @@ $smphone:321px;
     }
     @media (max-width:$phone) {
         top: 491px;
+        grid-template-columns: 80px 74px 91px 48px;
+        width: 254px;
     }
     @media (max-width:$smphone) {
         grid-template-columns: 80px 74px 91px 46px;

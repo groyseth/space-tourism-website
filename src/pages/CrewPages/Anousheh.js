@@ -5,10 +5,10 @@ import "../../css/crew/crew.scss"
 export default function Mark() {
     return (
         <section className='navPlanets'>
-           
-            
-            <img src={pic} alt="" className="crewPic" />
 
+            {/* <div className='border'> */}
+                <img src={pic} alt="" className="crewPic"  />
+            {/* </div> */}
             <div className='pickCrew'>
                 <h1 className='pickDestNum'>02</h1> <h1>MEET YOUR CREW</h1>
             </div>
@@ -20,11 +20,11 @@ export default function Mark() {
             </section>
 
             <div className='crewDis'>
-                
+
                 <div className=''>
                     <h1 className='crewDisText'>{crew[3].bio}</h1>
                 </div>
-               
+
             </div>
         </section>
     )
