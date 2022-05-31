@@ -11,7 +11,7 @@ $smphone:321px;
 
     @media (max-width:$tablet) {
         background-image: url(../assets/home/background-home-tablet.jpg);
-        height: 1410px;
+        height: 1186px;
         width: 100vw;
     }
 
@@ -213,7 +213,9 @@ color: #FFFFFF;
     display: none;
 }
 }
-
+.mobilePos{
+    height: 0px;
+}
 
 /* .nav a::before,
 .nav a::after {
@@ -306,15 +308,39 @@ color: #FFFFFF;
 .inAct{
     display: none;
 }
-
+.cirlcePlace{
+    width: 254px;
+    height: 9px;
+    margin: auto;
+    left: 320px;
+    top: 401px;
+    /* left: -423px; */
+    // left: 33px;
+    position: relative;
+    @media (max-width:$tablet) {
+        width: 276px;
+        height: 9px;
+        margin: auto;
+        left: 0px;
+        top: 730px;
+    }
+    @media (max-width:$phone) {
+        width: 247px;
+        height: 72px;
+        margin: auto;
+        left: -18px;
+        top: 516px;
+        /* left: -423px; */
+        position: relative;
+    }
+    
+}
 .cirlceDiv {
     background-image: url(../assets/home/Group.png);
-    position: absolute;
-    width: 274px;
+    width: 276px;
     height: 274px;
-    margin: auto;
-    left: 67vw;
-    top: 375px;
+    /* margin: auto; */
+    /* left: -9px; */
     background-repeat: no-repeat;
 
     @media (max-width:$tablet) {

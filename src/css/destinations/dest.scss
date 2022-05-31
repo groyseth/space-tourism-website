@@ -35,9 +35,10 @@ $smphone: 321px;
 
     @media (max-width:$tablet) {
         top: -92px;
-        left: -138px;
+        left: -111px;
         right: 0px;
         float: none;
+        font-size: 80px;
 
     }
 
@@ -63,22 +64,26 @@ $smphone: 321px;
     color: #FFFFFF;
 
     @media (max-width:$tablet) {
+
         top: -92px;
-        left: -175px;
+        left: -134px;
         right: 0px;
         float: none;
+        font-size: 80px;
+
     }
 
     @media (max-width:$phone) {
         top: -205px;
         left: -113px;
-    font-size: 60px;
+        font-size: 60px;
     }
+
     @media (max-width:$smphone) {
-    
+
         left: -107px;
         font-size: 60px;
-    
+
     }
 }
 
@@ -103,6 +108,7 @@ $smphone: 321px;
         height: 205px;
         left: -81px;
     }
+
     @media (max-width:$smphone) {
         width: 172px;
         top: -59px;
@@ -118,8 +124,8 @@ $smphone: 321px;
     height: 34px;
     left: 6.14%;
     right: 4.57%;
-    top: calc(53% - 512px/2);
-    font-family: 'Barlow Condensed';
+    top: calc(53% - 256px);
+    font-family: "Barlow Condensed";
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -127,7 +133,7 @@ $smphone: 321px;
     letter-spacing: 2.725px;
     text-transform: uppercase;
     color: #FFFFFF;
-    grid-template-columns: 63px 653px 60px;
+    grid-template-columns: 63px 525px;
     display: grid;
 
 
@@ -137,9 +143,10 @@ $smphone: 321px;
         right: 4.57%;
         /* top: calc(36% - 281px); */
         position: relative;
-        top: 92px;
-        font-size: 16px;
-        width: 95vw;
+        top: 48px;
+        font-size: 13px;
+        width: 10vw;
+        grid-template-columns: 63px 381px;
     }
 
     @media (max-width:$phone) {
@@ -182,6 +189,7 @@ $smphone: 321px;
         position: relative;
         right: 0px;
         left: -209px;
+        font-size: 16px;
     }
 
     @media (max-width:$phone) {
@@ -194,6 +202,7 @@ $smphone: 321px;
 
 .stats {
     padding-top: 27px;
+    text-align: -webkit-center;
 }
 
 .statPos {
@@ -212,9 +221,9 @@ $smphone: 321px;
         width: 612px;
         right: 0px;
         position: relative;
-        grid-gap: 15px;
+        grid-gap: 0px;
         display: grid;
-        grid-template-columns: 438px 191px;
+        grid-template-columns: 340px 249px;
     }
 
     @media (max-width:$phone) {
@@ -225,13 +234,14 @@ $smphone: 321px;
         text-align: center;
         right: 0px;
         display: grid;
-        grid-template: none ;
+        grid-template: none;
     }
+
     @media (max-width:$smphone) {
         top: 851px;
-        
+
         width: 259px;
-      
+
         display: grid;
         grid-template: none;
     }
@@ -283,9 +293,11 @@ $smphone: 321px;
         width: 10px;
     }
 }
-.logo{
+
+.logo {
     display: none;
 }
-.circleDiv{
+
+.circleDiv {
     display: none;
 }

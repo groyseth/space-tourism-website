@@ -27,8 +27,8 @@ $smphone: 376px;
     height: 34px;
     left: 6.14%;
     right: 4.57%;
-    top: calc(53% - 512px/2);
-    font-family: 'Barlow Condensed';
+    top: calc(53% - 256px);
+    font-family: "Barlow Condensed";
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -36,7 +36,7 @@ $smphone: 376px;
     letter-spacing: 2.725px;
     text-transform: uppercase;
     color: #FFFFFF;
-    grid-template-columns: 63px 653px 60px;
+    grid-template-columns: 63px 362px;
     display: grid;
 
     @media (max-width:$tablet) {
@@ -44,19 +44,20 @@ $smphone: 376px;
         right: 4.57%;
         /* top: calc(36% - 281px); */
         position: relative;
-        top: 137px;
-        font-size: 16px;
+        top: 100px;
+        font-size: 13px;
         width: 95vw;
     }
     @media (max-width:$phone) {
-        grid-template-columns: 80px 269px;
+        grid-template-columns: 146px 269px;
         font-size: 13px;
         text-align: center;
         top: 86px;
+        left: -47px;
     }
     @media (max-width:$smphone) {
-        grid-template-columns: 80px 224px;
-        left: -1.86%;
+        grid-template-columns: 137px 224px;
+        left: -21.86%;
     }
 }
 
@@ -190,5 +191,10 @@ $smphone: 376px;
     }
     @media (max-width:$phone) {
         font-size: 16px;
+    }
+}
+@media (max-width:$tablet) {
+    .pickCrew h1{
+        width: 227px;
     }
 }

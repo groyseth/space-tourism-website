@@ -52,7 +52,7 @@ $smphone: 321px;
         left: 0px;
         margin: auto;
         position: relative;
-        width: 354px;
+        width: 322px;
     }
 
     @media (max-width:$smphone) {
@@ -120,6 +120,9 @@ $smphone: 321px;
         margin: auto;
         text-align-last: center;
     }
+    @media (max-width:$phone) {
+        width: 67%;
+    }
 
     @media (max-width:$smphone) {
         width: 75%;
@@ -176,7 +179,7 @@ $smphone: 321px;
     letter-spacing: 2.725px;
     text-transform: uppercase;
     color: #FFFFFF;
-    grid-template-columns: 63px 653px 60px;
+    grid-template-columns: 63px 362px;
     display: grid;
 
     @media (max-width:$tablet) {
@@ -213,6 +216,9 @@ $smphone: 321px;
         top: 232px;
         right: 0px;
         position: relative;
+    }
+    .picTech h1{
+        width: 242px;
     }
 }
 

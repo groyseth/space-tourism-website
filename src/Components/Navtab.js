@@ -133,7 +133,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </Nav>
 
       </Container>
-      <Nav>
+      <div className='cirlcePlace'>
       <Nav.Link
               href="#Destonation"
 
@@ -146,7 +146,7 @@ function NavTabs({ currentPage, handlePageChange }) {
    </div> 
 
     </Nav.Link>
-      </Nav>
+      </div>
     </Navbar>
 
 
