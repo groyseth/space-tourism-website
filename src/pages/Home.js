@@ -1,9 +1,8 @@
 import React from 'react'
 import "../css/home.scss"
-import image from "../assets/home/Group.png"
 export default function Home() {
   return (
-    <body className='backGround' id='home'>
+    <section className='backGround' id='home'>
 
       {/* <NavTabs /> */}
 
@@ -21,6 +20,6 @@ export default function Home() {
     
       
       
-    </body>
+    </section>
   )
 }

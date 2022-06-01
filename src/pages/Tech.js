@@ -27,12 +27,12 @@ export default function Crew() {
 
 
   return (
-    <body className='techBackGround' id='Tech'>
+    <section className='techBackGround' id='Tech'>
        <div>
        <TechNav currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
 </div>
 
-    </body>
+    </section>
   )
 }
