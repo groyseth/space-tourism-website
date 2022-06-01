@@ -29,12 +29,12 @@ export default function Destonation() {
 
 
   return (
-    <div className='destBackGround' id='Destonation'>
+    <body className='destBackGround' id='Destonation'>
        <div>
        <DestinationNav currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
 </div>
 
-    </div>
+    </body>
   )
 }

@@ -3,7 +3,7 @@ import "../css/home.scss"
 import image from "../assets/home/Group.png"
 export default function Home() {
   return (
-    <div className='backGround' id='home'>
+    <body className='backGround' id='home'>
 
       {/* <NavTabs /> */}
 
@@ -21,6 +21,6 @@ export default function Home() {
     
       
       
-    </div>
+    </body>
   )
 }

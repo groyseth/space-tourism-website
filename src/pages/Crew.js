@@ -28,12 +28,12 @@ export default function Crew() {
 
 
   return (
-    <div className='crewBackGround' id='Crew'>
+    <body className='crewBackGround' id='Crew'>
        <div>
        <CrewNav currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
 </div>
 
-    </div>
+    </body>
   )
 }
